@@ -1,0 +1,49 @@
+{
+  "name": "dsh-notepad-panel",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Notepad panel for the DSH web GUI: multiple plain-text notes with search and local autosave.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notepad",
+    "notes"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lx459/dsh-notepad-panel.git"
+  },
+  "homepage": "https://github.com/lx459/dsh-notepad-panel",
+  "bugs": {
+    "url": "https://github.com/lx459/dsh-notepad-panel/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "assets/icon-180.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
