@@ -1,0 +1,3 @@
+- insert:
+    - id: notepad
+      name: 'dsh-notepad-panel'

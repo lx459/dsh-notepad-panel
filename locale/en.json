@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Notepad",
+    "description": "Adds a Notepad panel to the sidebar. Create, search, edit, and delete plain-text notes; every change is saved automatically in this browser and restored the next time the panel opens. Notes never leave this device, so they are not synced to other browsers or machines, and clearing the browser's site data deletes them. Disabling the plugin removes the panel and leaves the stored notes untouched.",
+    "detail": "docs/DETAIL.md"
+  }
+}
